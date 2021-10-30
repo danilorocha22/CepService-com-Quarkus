@@ -1,8 +1,5 @@
 package org.danilorocha.domain.service;
 
-import javax.enterprise.context.Dependent;
-
-@Dependent
 public class ViaCepService extends AbstractCepService {
 
     //Faz-se necessario construtor sem parâmetro

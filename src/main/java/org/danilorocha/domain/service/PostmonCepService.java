@@ -1,10 +1,5 @@
 package org.danilorocha.domain.service;
 
-import javax.enterprise.context.Dependent;
-import javax.enterprise.inject.Alternative;
-
-@Alternative
-@Dependent
 public class PostmonCepService extends AbstractCepService {
 
     //Faz-se necessario construtor sem parâmetro
