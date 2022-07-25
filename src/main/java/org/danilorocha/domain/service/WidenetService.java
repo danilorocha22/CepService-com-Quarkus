@@ -11,6 +11,6 @@ public class WidenetService extends AbstractCepService {
 
     @Override
     protected String buildPath(String cep) {
-        return String.format("busca-cep/api/cep.json?code=%s", cep);
+        return String.format("busca-cep/api/cep.json?%s", cep);
     }
 }

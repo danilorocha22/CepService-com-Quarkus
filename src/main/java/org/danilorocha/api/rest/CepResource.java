@@ -3,6 +3,7 @@ package org.danilorocha.api.rest;
 import org.danilorocha.domain.model.Endereco;
 import org.danilorocha.domain.service.CepService;
 
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -10,6 +11,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+@RequestScoped
 @Path("/endereco")
 public class CepResource {
 
